@@ -1,0 +1,33 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+*, *:before, *:after {
+   box-sizing: inherit;
+}
+
+body {
+    font-family: $poppins;
+}
+
+:focus {
+    outline: none;
+  }
+
+img,
+video {
+    max-width: 100%;
+}
+
+.main-wrapper,
+main,
+section,
+article
+footer {
+    position: relative;
+    width:100%;
+}
+
+main {
+    padding:0 0 80px 0;
+}

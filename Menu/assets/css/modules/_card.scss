@@ -1,0 +1,48 @@
+.card {
+    max-width:350px;
+    padding:10px;
+    background:$white;
+    border:1px solid #ccc;
+    border-radius:10px;
+}
+
+.card-header {
+    height:250px;
+    img {
+        width: 100%;
+        height:100%;
+        object-fit: cover;
+    }
+}
+
+.card-body {
+    margin:15px 0;
+    height:100px;
+    h3 {
+        font-size:18px;
+        margin:0 0 10px 0;
+    }
+    p {
+        font-size:14px;
+        color:#999;
+        line-height: normal;
+    }
+}
+
+.card-footer {
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price {
+    font-weight: 700;
+}
+
+.listado-cards {
+    display: flex;
+    flex-wrap:wrap;
+    gap:20px;
+    justify-content: center;
+}

@@ -1,0 +1,51 @@
+.button {
+    border:none;
+    transition: .35s ease-in-out;
+    &_icon {
+        background: transparent;
+    }
+    &_icon-lg {
+        font-size:40px;
+    }
+    &_icon-md {
+        font-size:30px;
+    }
+    &_icon-sm {
+        font-size:20px;
+    }
+    &_icon-white {
+        color:$white;
+    }
+    &_icon-black {
+        color:$black;
+    }
+    &_icon-gray {
+        color:$gray;
+    }
+    &_pill {
+        border-radius:50px;
+    }
+    &_rojo {
+        color:$white;
+        background: $rojoclaro;
+        &:hover {
+            background: $rojofuerte;
+        }
+    }
+    &_md {
+        display: inline-flex;
+        flex-wrap:wrap;
+        align-items: center;
+        justify-content: center;
+        height:38px;
+        padding:0 25px;
+        font-weight: 600;
+    }
+    &_with-icon {
+        gap:5px;
+    } 
+}
+
+a.button {
+    text-decoration: none;
+}
